@@ -1,0 +1,39 @@
+- links:
+  - name: Pricing
+    link: /pricing/
+  - name: Blog
+    link: /blog/
+  - name: About
+    link: /about/
+  - name: Contact
+    link: /contact/
+- links:
+  - name: Dashboard
+    link: https://insta.gramup.me
+    new_window: true
+  - name: Extension
+    link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
+    new_window: true
+  - name: Donate
+    link: https://paypal.me/okhlopkov/300
+    new_window: true
+  - name: Morejust
+    link: https://morejust.foundation/
+    new_window: true
+- links:
+  - name: GitHub
+    link: https://github.com/instagrambot/
+    new_window: true
+    social_icon: GitHub
+  - name: Extension
+    link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
+    social_icon: Chrome
+    new_window: true
+  - name: Telegram
+    link: https://t.me/instabotproject
+    social_icon: Telegram
+    new_window: true
+  - name: RSS
+    link: /feed.xml
+    social_icon: RSS
+    new_window: false
