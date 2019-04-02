@@ -14,11 +14,11 @@
   link: /contact/
   new_window: false
   highlight: false
-- name: Login
-  link: /
+- name: Install
+  link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
   new_window: true
   highlight: false
-- name: Sign Up
-  link: /
+- name: Dashboard
+  link: https://insta.gramup.me/
   new_window: true
   highlight: true
