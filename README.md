@@ -14,4 +14,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-made by [okhlopkov](https://okhlopkov.com/).
+---
+
+_made by [okhlopkov](https://okhlopkov.com/)_
