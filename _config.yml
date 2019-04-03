@@ -5,8 +5,7 @@ title: Gram Up
 url: "https://gramup.me"
 baseurl:
 google_analytics_key:
-yandex_metrica:
-google_maps_javascript_api_key: AIzaSyAGrBbKprcqDCKZUwCzm-Ksvu254EsMvV4
+yandex_metrica: 53083903
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
