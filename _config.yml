@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Gram Up
+title: Gram Up!
 url: "https://gramup.me"
 baseurl:
 google_analytics_key: UA-137776639-1
@@ -10,7 +10,8 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Automate your Instagram for free! likes, follows, comments, replies
+description: Automate your Instagram for free: like, follow, comment
+keywords: instabot, instagram bot, python, gramup, gram up
 author:
   name: Daniil Okhlopkov
   email: 
@@ -18,6 +19,7 @@ author:
 social:
   name: Gram Up!
   links:
+    - https://github.com/instagrambot/
     - https://github.com/instagrambot/web
     - https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
 
