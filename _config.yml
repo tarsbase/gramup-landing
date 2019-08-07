@@ -63,9 +63,14 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "index.html"
+      path: "home.html"
     values:
       layout: "default"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "onepager"
   -
     scope:
       path: "contact.html"

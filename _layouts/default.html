@@ -11,98 +11,37 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_key }}"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-
-			  gtag('config', '{{ site.google_analytics_key }}');
-			</script>
-
-		{% endif %}
-
-		{% if jekyll.environment == 'production' and site.yandex_metrica != '' %}
-			<!-- Yandex.Metrika counter -->
-			<script type="text/javascript" >
-			   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-			   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-			   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-			   ym({{ site.yandex_metrica }}, "init", {
-				clickmap:true,
-				trackLinks:true,
-				accurateTrackBounce:true,
-				webvisor:true
-			   });
-			</script>
-			<noscript><div><img src="https://mc.yandex.ru/watch/{{ site.yandex_metrica }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-			<!-- /Yandex.Metrika counter -->
-		{% endif %}
+		{% include analytics.html %}
 		
 		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/91201205e23d1ace89740a8b9/04a7d946d4fbf83aa62ad21e1.js");</script>
-
-			
 
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 		<script crossorigin src="https://unpkg.com/cookieconsent@3.1.1/build/cookieconsent.min.js" data-cfasync="false"></script>
 		
 		<script>
-		window.addEventListener("load", function(){
-		window.cookieconsent.initialise({
-		  "palette": {
-		    "popup": {
-		      "background": "#edeff5",
-		      "text": "#838391"
-		    },
-		    "button": {
-		      "background": "#4b81e8"
-		    }
-		  },
-		  "theme": "edgeless"
-		})});
+			window.addEventListener("load", function(){
+			window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+				"background": "#edeff5",
+				"text": "#838391"
+				},
+				"button": {
+				"background": "#4b81e8"
+				}
+			},
+			"theme": "edgeless"
+			})});
 		</script>
 
 
 	</head>
 	<body>
-		<header>
-			<div class="container">
-					<div id="codefund"><!-- fallback content --></div>
-					<script src="https://codefund.app/properties/263/funder.js" async="async"></script>
-
-			</div>
-			<div class="container">
-				<div class="company-name">
-					<a href="{{ site.baseurl }}/">
-						<img src="{{ site.baseurl }}/images/logo.png" alt="Gramup Logo" width="95" height="33" />
-					</a>
-				</div>
-				{% include navigation.html %}
-			</div>
-		</header>
+		{% include header.html %}
+		
 		{{ content }}
-		<footer>
-			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-					<ul class="footer-links">
-						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-								{% if link.social_icon %}
-									{% include social-icon.html icon=link.social_icon %}
-								{% endif %}
-								{{ link.name }}</a></li>
-						{% endfor %}
-					</ul>
-					{% endfor %}
-				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Gram Up! • <a href="https://insta.gramup.me/#/legal">Terms</a> &amp; <a href="https://insta.gramup.me/#/legal">Privacy</a> • <a href="https://morejust.foundation/">Developed by Morejust</a></p>
-			</div>
-		</footer>
+
+		{% include footer.html %}
 		<script>
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
