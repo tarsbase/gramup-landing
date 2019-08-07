@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		{% seo %}
+		{% feed_meta %}
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+
+		{% include analytics.html %}
+		
+		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/91201205e23d1ace89740a8b9/04a7d946d4fbf83aa62ad21e1.js");</script>
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+		<script crossorigin src="https://unpkg.com/cookieconsent@3.1.1/build/cookieconsent.min.js" data-cfasync="false"></script>
+	</head>
+	<body>
+		
+		{{ content }}
+
+	</body>
+</html>
