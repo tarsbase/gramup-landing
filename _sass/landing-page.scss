@@ -54,6 +54,24 @@
 	}
 }
 
+.onepager{
+    height: 100vh;
+	display: table;
+	width: 100%;
+    justify-content: center;
+	align-items: center;
+	background-color: #4182e4;
+}
+
+.onepager-container{
+	display: table-cell;
+	font-size: 1.5em;
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 @media #{$desktop} {
 	.flex {
