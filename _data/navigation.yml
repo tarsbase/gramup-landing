@@ -11,7 +11,7 @@
   new_window: false
   highlight: false
 - name: Install
-  link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
+  link: https://get.gramup.me/
   new_window: true
   highlight: false
 - name: Dashboard
