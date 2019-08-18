@@ -33,7 +33,3 @@
     link: https://t.me/instabotproject
     social_icon: Telegram
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
