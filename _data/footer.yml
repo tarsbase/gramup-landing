@@ -9,13 +9,13 @@
     link: /contact/
 - links:
   - name: Dashboard
-    link: https://insta.gramup.me
+    link: https://dashboard.gramup.me
     new_window: true
   - name: Extension
-    link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
+    link: https://get.gramup.me
     new_window: true
   - name: Donate
-    link: https://paypal.me/okhlopkov/300
+    link: https://paypal.me/okhlopkov/5
     new_window: true
   - name: Morejust
     link: https://morejust.foundation/
@@ -26,7 +26,7 @@
     new_window: true
     social_icon: GitHub
   - name: Extension
-    link: https://chrome.google.com/webstore/detail/gram-up/njonkbhnmmjgancfbncekpgkmidhbbpo
+    link: https://get.gramup.me
     social_icon: Chrome
     new_window: true
   - name: Telegram

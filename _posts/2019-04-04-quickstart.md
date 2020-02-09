@@ -9,23 +9,23 @@ author_staff_member: Dan
 
 ![Checkmate](https://source.unsplash.com/random/1500x645)
 
-How to start to use free instagram automation tool Gramup? The quickstart tutorial is below. Reminder: we are currently an alpha version, so please be patient while waiting for new features and share your ideas with [us](https://t.me/instabotproject)!
+How to start to use free social network automation tool Gramup? The quickstart tutorial is below. Reminder: we are currently an alpha version, so please be patient while waiting for new features and share your ideas with [us](https://t.me/instabotproject)!
 
 ## Minimal equirements
 
 While we are in early alpha version, to use our tool you should fit the requirements below.
 
 1. Update Google Chrome browser (on desktop!)
-2. Install [Extension](https://chrome.google.com/webstore/detail/instagram-yourself/njonkbhnmmjgancfbncekpgkmidhbbpo)
-3. Disable 2FA on your Instagram account
+2. Install [Extension](https://get.gramup.me)
+3. Disable 2FA on your account
 4. Don't close the website while it doing his job. If you close tab - everything would stop.
 
-## How to start automating your Instagram
+## How to start automating your social network account
 
 1. Install and update your [Google Chrome browser](https://chrome.google.com)
-2. Install our extension from the [Official store](https://chrome.google.com/webstore/detail/instagram-yourself/njonkbhnmmjgancfbncekpgkmidhbbpo)
-3. Press our pink icon and login with your Instagram account
-4. Open https://insta.gramup.me
+2. Install our extension from the [Official store](https://get.gramup.me)
+3. Press our pink icon and login with your social network account
+4. Open [Dashboard](https://dashboard.gramup.me)
 5. Enjoy!
 
 ![Office](https://source.unsplash.com/random/1500x1146)
@@ -44,7 +44,7 @@ During the work, task prints all the relevant information to the log. If one of 
 
 If some error happens and all the requests fail, you can stop the task manually. You'll need to wait until it will unwind to it's end, though. However, don't worry, **the data you've already downloaded should be safe and sound.**
 
-If you feel the need for some custom task, you can drop us a feature request into [Issues](https://github.com/instagrambot/web/issues/new), [Telegram](https://t.me/instabotproject) or contribute here: [build custom task (Javascript)](https://github.com/instagrambot/web/blob/master/client/src/scripts.js).
+If you feel the need for some custom task, you can drop us a feature request into [Issues](https://github.com/caffeinum/gramup/issues/new), [Telegram](https://t.me/instabotproject) or contribute here: [build custom task (Javascript)](https://github.com/caffeinum/gramup/blob/master/client/src/scripts.js).
 
 ## Updating the extension
 
