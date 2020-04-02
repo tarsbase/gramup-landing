@@ -1,6 +1,6 @@
 ---
 title: Gram Up!
-description: Get free likes and followers with our chrome extension. 
+description: Get free likes and followers with our chrome extension.
 ---
 <!-- <section class="hero">
 	<div class="text-container">
@@ -12,9 +12,10 @@ description: Get free likes and followers with our chrome extension.
 </section> -->
 
 <style>
-	
+
 	button {
         color: #fff;
+				margin-bottom: 1em;
         text-decoration: none;
         padding: 10px 30px;
         background: #4182e4;
@@ -33,30 +34,52 @@ description: Get free likes and followers with our chrome extension.
         background: #fff;
         color: #4182e4
     }
-	
+
 	.buttons {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	}
-	
+
 	button .text {
         margin-top: -1px;
     }
-	
+
 	button img,
     button .img{
         width: 1em;
         margin-right: 0.5em;
     }
-	
-	.button + .button {
-		margin-left: 2em;
+
+	@media(min-width: 600px) {
+		.button + .button {
+			margin-left: 2rem;
+		}
+
+		.button + .button-outlined {
+			margin-left: 2rem;
+		}
 	}
 </style>
 <div class="onepager">
 	<div class="onepager-container">
-		<h2>Get <strong>Free</strong> 100 likes</h2>
+		<div class="likeup-banner">
+			<h3>Go viral in Instagram</h3>
+			<div class="description">Get like boosts in LikeUp & grow your followers
+				<div class="text-secondary">ex GramUp Family</div>
+			</div>
+			<a class="button" href="https://likeup.me/?ref=gramup-landing" target="_blank">
+					<button>
+						<span class="text">Get likes ❤️</span>
+					</button>
+			</a><br>
+			<a class="button-secondary" href="https://likeup.me/bots-are-dead/?ref=gramup-landing"
+			 	 target="_blank">
+						Read more
+			</a>
+		</div>
+
 		<h2><strong>Double</strong> your followers</h2>
 		<h2>Start <strong>Earning</strong> with your Instagram</h2>
 		<br>
